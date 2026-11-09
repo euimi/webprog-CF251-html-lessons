@@ -22,12 +22,8 @@ body {
   line-height: 1.7;
 }
 
-/* header*/
+/* header */
 header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
   text-align: center;
   padding: 36px 24px 30px;
   background: rgba(255, 255, 255, 0.72);
@@ -38,39 +34,21 @@ header {
 }
 
 h1 {
-  width: 100%;
   color: var(--accent);
   text-shadow: 0 2px 0 #fff, 0 4px 14px rgba(240, 179, 187, 0.5);
-  margin: 0 0 12px;
+  margin: 0;
   font-size: clamp(1.7rem, 5vw, 2.6rem);
   letter-spacing: 0.5px;
 }
 
 header p {
-  margin: 0;
-  font-size: 0.78rem;
-  line-height: 1.7;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: #fff;
-  border: 1px solid var(--line);
-  color: var(--accent-deep);
-}
-
-header p:first-child {
-  width: 100%;
   margin: 0 0 4px;
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
   font-size: 0.95rem;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: var(--accent-deep);
 }
 
-/* sections */
 section {
   margin-top: 26px;
   background: rgba(255, 255, 255, 0.78);
@@ -110,7 +88,6 @@ p:last-child { margin-bottom: 0; }
 
 strong { color: var(--accent-deep); }
 
-/* education */
 h3 {
   margin: 18px 0 2px;
   font-size: 0.78rem;
@@ -134,7 +111,7 @@ em {
   letter-spacing: 0.4px;
 }
 
-/* gall */
+/* gallery */
 section img {
   width: 200px;
   height: 220px;
