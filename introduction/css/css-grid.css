@@ -1,3 +1,30 @@
+:root {
+  --cloth: #fff5f8;
+  --check: rgba(240, 179, 187, 0.45);
+  --pink: #f0b3bb;
+  --pink-deep: #c9788a;
+  --berry: #b85d73;
+  --ink: #5a3f4a;
+  --cream: #fffaf5;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 28px 18px 40px;
+  background-color: var(--cloth);
+  background-image:
+    linear-gradient(90deg, var(--check) 50%, transparent 50%),
+    linear-gradient(var(--check) 50%, transparent 50%);
+  background-size: 44px 44px;
+  background-attachment: fixed;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  line-height: 1.65;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
